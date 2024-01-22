@@ -1,0 +1,56 @@
+body {
+  background: #D2B48C;
+
+}
+
+img {
+position: fixed;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 400;
+  height: 500;
+}
+
+
+h1 {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  color: white;
+  font-size: 20px; 
+  transform: translate(-50%, -50%); 
+}
+h2 {
+	position: absolute;
+  top: 17%;
+  left: 30%;
+  color: white;
+  font-size: 20px; 
+  transform: translate(-50%, -50%); 
+}
+
+ul { 
+  position: absolute;
+  top: 20%;
+  right: 30%;
+  color: white;
+  font-size: 20px; 
+}
+
+nav {
+  text-align: right;
+}
+
+nav a {
+  display: inline-block;
+  margin-left: 0;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+footer {
+	position: relative;
+    top: 100%;
+	left: 50%;
+}
