@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dom</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="container">
+            </div>
+    <style> 
+        #container {
+            width: 80%;
+            text-align: center;
+            border: 2px solid brown;
+        }
+
+        p {
+            color: red;
+        }
+    </style>
+    <script>
+        var container = document.getElementById('container');
+
+        for (var i = 0; i < 5; i++) {
+            var para = document.createElement('p');
+            para.textContent = 'Kinda boring but it will be worth it' + (i + 1);
+            container.appendChild(para);
+        }
+
+        function colorchange() {
+            document.body.style.backgroundColor = 'tan';
+            container.style.backgroundColor = 'black';
+        }
+    </script>
+
+    <button onclick="colorchange()">Change Color</button>
+</body>
+</html>
